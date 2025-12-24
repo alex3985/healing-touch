@@ -3,7 +3,6 @@ export default function ServiceImage({ src, alt, className = "" }) {
     <img
       src={new URL(src, import.meta.url).href}
       alt={alt}
-      loading="lazy"
       className={`w-full h-full object-cover ${className}`}
     />
   );
