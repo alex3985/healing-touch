@@ -1,0 +1,47 @@
+
+@import "@fontsource/manrope/200.css";
+@import "@fontsource/manrope/300.css";
+@import "@fontsource/manrope/400.css";
+@import "@fontsource/manrope/500.css";
+@import "@fontsource/manrope/700.css";
+
+@import "@fontsource/roboto/200.css"; 
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Анімації для ServicesSection - тільки при свайпі */
+@keyframes slide-in {
+  from {
+    opacity: 0.5;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Приховати scrollbar для горизонтального скролу */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
