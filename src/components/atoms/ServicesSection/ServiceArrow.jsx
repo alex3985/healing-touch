@@ -3,7 +3,7 @@ export default function ServicesArrow({ direction = "right", disabled, onClick }
 
   const arrowImg = (
     <img
-      src="/src/assets/image/Services-Image/arrow.png"
+      src={new URL("/src/assets/image/Services-Image/arrow.png", import.meta.url).href}
       className={`w-[15px] h-[14px] object-contain ${isLeft ? "rotate-180" : ""}`}
       alt="arrow"
     />
