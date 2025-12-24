@@ -21,9 +21,8 @@ export default function VideoBlockFrame({ src, className = "" }) {
         ${className}
       `}
     >
-      <video className="w-full h-full object-cover" controls >
-        <source src={new URL(src, import.meta.url).href} type="video/mp4"></source>
-        </video>
+      <video className="w-full h-full object-cover" src={src} controls type="video/mp4">
+      </video>
     </div>
   );
 }
