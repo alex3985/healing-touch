@@ -28,7 +28,7 @@ export default function InfoCard({ iconSrc, iconAlt, title, text }) {
           w-[340px] xl:w-[380px] 2xl:w-[418px]
         "
       >
-        <InfoIcon src={iconSrc} alt={iconAlt} />
+       {iconSrc && <InfoIcon src={iconSrc} alt={iconAlt} />}
 
         <div className="min-w-0">
           <InfoTitle className="w-[230px] xl:w-[260px] 2xl:w-[279px]">

@@ -6,16 +6,15 @@ import ServicesSection from "@/components/organisms/ServicesSection/ServicesSect
 import MastersSection from "@/components/organisms/MastersSection/MastersSection";
 import CertificatesSection from "@/components/organisms/CertificatesSection/CertificatesSection";
 import MoreAboutSection from "@/components/organisms/MoreAboutSection/MoreAboutSection";
-import LocationAndBookingSection from "@/components/organisms/LocationAndBookingSection/LocationAndBookingSection"
-import Footer from "@/components/organisms/Footer/Footer"
-//props 
+import LocationAndBookingSection from "@/components/organisms/LocationAndBookingSection/LocationAndBookingSection";
+import Footer from "@/components/organisms/Footer/Footer";
+import PartnersSection from "../organisms/PartnersSection copy/PartnersSection";
+//props
 
 export default function HomeTemplate() {
   return (
     <main className="w-full min-h-screen overflow-hidden bg-white">
-      <HeroSection>
-        
-      </ HeroSection> 
+      <HeroSection></HeroSection>
 
       <AboutSection />
 
@@ -30,6 +29,8 @@ export default function HomeTemplate() {
       <CertificatesSection />
 
       <MoreAboutSection />
+
+      <PartnersSection />
 
       <LocationAndBookingSection />
 

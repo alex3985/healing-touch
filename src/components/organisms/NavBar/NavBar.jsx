@@ -143,7 +143,7 @@ export default function NavBar() {
               <div className="w-px h-full bg-white/20" />
               <div className="flex flex-col justify-center font-manrope whitespace-nowrap">
                 <p className="font-[roboto] text-[16px] xl:text-[18px] 2xl:text-[20px] font-extralight text-white leading-[130%] ml-[12px] xl:ml-[20px]">
-                  +38 (050) 500 56 53
+                  +38 (068) 591 15 04
                 </p>
                 <div className="flex items-center gap-[6px] whitespace-nowrap">
                   <img src={clock} width="15" height="15" alt="Годинник" />
@@ -203,7 +203,7 @@ export default function NavBar() {
               <div className="mt-[40px] pl-[29px] pr-[29px]">
                 <div className="flex flex-col justify-center font-manrope text-[#703938]">
                   <p className="font-[roboto] text-[20px] font-extralight leading-[130%]">
-                    +38 (050) 500 56 53
+                    +38 (068) 591 15 04
                   </p>
                   <div className="flex items-center gap-[6px]">
                     <img src={clockDark} width="15" height="15" alt="Годинник" />
