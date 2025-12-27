@@ -148,7 +148,7 @@ export default function NavBar() {
                 <div className="flex items-center gap-[6px] whitespace-nowrap">
                   <img src={clock} width="15" height="15" alt="Годинник" />
                   <p className="text-[11px] xl:text-[12px] opacity-80">
-                    Працюємо кожний день з 10:00 до 18:00
+                    Працюємо кожний день з 9:00 до 20:00
                   </p>
                 </div>
               </div>
@@ -208,7 +208,7 @@ export default function NavBar() {
                   <div className="flex items-center gap-[6px]">
                     <img src={clockDark} width="15" height="15" alt="Годинник" />
                     <p className="text-[12px] opacity-80">
-                      Працюємо кожний день з 10:00 до 18:00
+                      Працюємо кожний день з 9:00 до 20:00
                     </p>
                   </div>
                 </div>
