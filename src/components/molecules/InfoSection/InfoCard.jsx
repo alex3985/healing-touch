@@ -7,7 +7,7 @@ export default function InfoCard({ iconSrc, iconAlt, title, text }) {
     <article className="shrink-0">
       {/* MOBILE / TABLET (430x763) */}
       <div className="lg:hidden w-[368px] max-w-full">
-        <InfoIcon src={iconSrc} alt={iconAlt} />
+       {iconSrc &&  <InfoIcon src={iconSrc} alt={iconAlt} border={false}/>}
 
         {/* icon top=40, title top=120 => 40 + 60 + 20 */}
         <InfoTitle className="mt-[20px] w-[279px]">
@@ -28,7 +28,7 @@ export default function InfoCard({ iconSrc, iconAlt, title, text }) {
           w-[340px] xl:w-[380px] 2xl:w-[418px]
         "
       >
-       {iconSrc && <InfoIcon src={iconSrc} alt={iconAlt} />}
+       {iconSrc && <InfoIcon src={iconSrc} alt={iconAlt} border={false}/>}
 
         <div className="min-w-0">
           <InfoTitle className="w-[230px] xl:w-[260px] 2xl:w-[279px]">

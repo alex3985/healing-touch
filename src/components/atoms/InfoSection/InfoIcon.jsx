@@ -1,4 +1,4 @@
-export default function InfoIcon({ src, alt }) {
+export default function InfoIcon({ src, alt, border = true }) {
   return (
     <div
       className="
@@ -11,7 +11,7 @@ export default function InfoIcon({ src, alt }) {
         src={src}
         alt={alt}
         loading="lazy"
-        className="w-[28px] h-[28px] object-contain 2xl:w-[47px] 2xl:h-[47px]"
+        className={border ? "w-[28px] h-[28px] object-contain 2xl:w-[47px] 2xl:h-[47px]" : ""}
       />
     </div>
   );

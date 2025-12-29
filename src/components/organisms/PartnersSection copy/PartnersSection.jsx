@@ -49,15 +49,18 @@ export default function PartnersSection() {
               2xl:gap-x-[90px] 2xl:gap-y-0
             "
           >
-            <InfoCard
-              title='Партнери'
-              text="Наші партнери ->"
-            />
+            <InfoCard title="Партнери" text="Наші партнери ->" />
             <InfoCard
               iconSrc={"/IMG_1421.JPG"}
               iconAlt="Smile Icon"
               title='Автомагазин "JVM Auto"'
               text="Підбір та замовлення автозапчастин для вашого авто,аксесуари та автохімія."
+            />
+            <InfoCard
+              iconSrc={"/IMG_7264.JPG"}
+              iconAlt="Smile Icon"
+              title="Ярослава Мороз"
+              text="Лікар-інтерн акушер-гінеколог"
             />
           </div>
         </div>
